@@ -12,10 +12,18 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/templatemo-style.css" />
+    
+    <style>
+        #grad1 {
+            height: 200px;
+            background-color: rgb(20,40,84); /* For browsers that do not support gradients */
+            background-image: linear-gradient(to right, rgb(20,40,84), white); /* Standard syntax (must be last) */
+        }
+    </style>
 
   </head>
-  <body>
-    <div class="parallax-window" data-parallax="scroll" data-image-src="img/gradient.jpg">
+  <body id="grad1">
+    <div>
 
         <section class="row" id="tmHome">
           <div class="col-12 tm-home-container">
